@@ -9,7 +9,7 @@
   "options": {},
   "schema": {},
   "arch": ["amd64"],
-  "cap_add": ["NET_ADMIN"],
-  "privileged": ["NET_ADMIN"],
-  "devices": ["/dev/net/tun:/dev/net/tun:rwm"]
+  "privileged": ["NET_ADMIN", "NET_RAW"],
+  "devices": ["/dev/net/tun:/dev/net/tun:rwm"],
+  "host_dbus": true
 }
