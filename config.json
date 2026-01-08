@@ -11,5 +11,6 @@
   "arch": ["amd64"],
   "privileged": ["NET_ADMIN", "NET_RAW"],
   "devices": ["/dev/net/tun:/dev/net/tun:rwm"],
-  "host_dbus": true
+  "host_dbus": true,
+  "hassio_api": true
 }
