@@ -10,5 +10,6 @@
   "schema": {},
   "arch": ["amd64"],
   "cap_add": ["NET_ADMIN"],
-  "devices": ["/dev/net/tun"]
+  "privileged": ["NET_ADMIN"],
+  "devices": ["/dev/net/tun:/dev/net/tun:rwm"]
 }
