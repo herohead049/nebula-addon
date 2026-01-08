@@ -399,22 +399,22 @@ firewall:
 
   inbound:
     # Allow icmp between any nebula hosts
+    #- port: any
+    #  proto: icmp
+    #  host: any
     - port: any
-      proto: icmp
-      host: any
-    - port: 22
-      proto: tcp
+      proto: any
       host: any
 
-    - port: 8123
-      proto: tcp
-      host: any
+    #- port: 8123
+    #  proto: tcp
+    #  host: any
     # Allow tcp/443 from any host with BOTH laptop and home group
-    - port: 443
-      proto: tcp
-      groups:
-        - laptop
-        - home
+    #- port: 443
+    #  proto: tcp
+    #  groups:
+    #    - laptop
+    #    - home
 
     # Expose a subnet (unsafe route) to hosts with the group remote_client
     # This example assume you have a subnet of 192.168.100.1/24 or larger encoded in the certificate
