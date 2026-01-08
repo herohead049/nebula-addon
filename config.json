@@ -9,5 +9,5 @@
   "options": {},
   "schema": {},
   "arch": ["amd64"],
-  "cap_add": ["NET_ADMIN"]
+  "cap_add": "NET_ADMIN"
 }
