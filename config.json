@@ -12,5 +12,8 @@
   "privileged": ["NET_ADMIN", "NET_RAW"],
   "devices": ["/dev/net/tun:/dev/net/tun:rwm"],
   "host_dbus": true,
-  "hassio_api": true
+  "hassio_api": true,
+  "ingress": true,
+  "ingress_port": 0,
+  "ingress_stream": true
 }
