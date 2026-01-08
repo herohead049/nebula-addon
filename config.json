@@ -7,6 +7,6 @@
   "boot": "auto",
   "host_network": true,
   "options": {},
-  "schema": {}
+  "schema": {},
+  "arch": "amd64"
 }
-
