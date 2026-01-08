@@ -8,5 +8,5 @@
   "host_network": true,
   "options": {},
   "schema": {},
-  "arch": "amd64"
+  "arch": ["amd64"]
 }
