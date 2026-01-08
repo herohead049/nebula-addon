@@ -1,0 +1,12 @@
+{
+  "name": "Nebula VPN",
+  "version": "1.0.0",
+  "slug": "nebula",
+  "description": "Nebula VPN node for Home Assistant",
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "options": {},
+  "schema": {}
+}
+
