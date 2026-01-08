@@ -8,5 +8,6 @@
   "host_network": true,
   "options": {},
   "schema": {},
-  "arch": ["amd64"]
+  "arch": ["amd64"],
+  "cap_add": ["NET_ADMIN"]
 }
